@@ -1,0 +1,9 @@
+[
+    {"model": "shiren.price", "pk": 1, "fields": {"price": 10}},
+    {"model": "shiren.price", "pk": 2, "fields": {"price": 200}},
+    {"model": "shiren.price", "pk": 3, "fields": {"price": 70}},
+    {"model": "shiren.item", "pk": 1, "fields": {"price": [1, 2], "item_name": "angel seed", "item_type": 10}}
+    
+
+
+]

@@ -28,4 +28,5 @@ router.register(r'spotlight', WinnerViewSet)
 urlpatterns = [
     path("api/", include(router.urls)),
     path("admin/", admin.site.urls),
+    path("shiren/", include("shiren.urls")),
 ]
