@@ -17,16 +17,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from rest_framework.routers import DefaultRouter
-from spotlight.views import WinnerViewSet
+# from rest_framework.routers import DefaultRouter
+# from spotlight.views import WinnerViewSet
 
 
-router = DefaultRouter()
-router.register(r'spotlight', WinnerViewSet)
+# router = DefaultRouter()
+# router.register(r'spotlight', WinnerViewSet)
 
 
 urlpatterns = [
-    path("api/", include(router.urls)),
+    path("api/", include("spotlight.urls")),
     path("admin/", admin.site.urls),
     path("shiren/", include("shiren.urls")),
 ]
