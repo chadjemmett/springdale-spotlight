@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "spotlight",
     "rest_framework",
     "shiren",
+    "color_database",
 ]
 
 
