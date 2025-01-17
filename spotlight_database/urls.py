@@ -29,4 +29,5 @@ urlpatterns = [
     path("api/", include("spotlight.urls")),
     path("admin/", admin.site.urls),
     path("shiren/", include("shiren.urls")),
+    path("colors/", include("color_database.urls")),
 ]
